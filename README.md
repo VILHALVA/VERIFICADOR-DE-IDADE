@@ -4,7 +4,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
 [![GitHub Repo stars](https://img.shields.io/badge/MEUS-CURSOS-03A9F4?logo=github)](https://github.com/VILHALVA?tab=repositories&q=CURSO&type=public&language=&sort=) <br>
 
-<img src="https://pt.seaicons.com/wp-content/uploads/2015/10/Age-Child-Male-Light-icon.png" align="center" width="280"> <br>
+<img src="FOTO.png" align="center" width="400"> <br>
 
 ## DESCRIÇÃO:
 Esse é um código HTML que cria uma página simples para verificar a idade com base no ano de nascimento e sexo. Ele utiliza JavaScript para realizar a verificação e apresentar uma imagem correspondente à faixa etária e ao gênero.
