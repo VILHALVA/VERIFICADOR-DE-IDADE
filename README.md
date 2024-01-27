@@ -4,42 +4,22 @@
 <img src="FOTO.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
-Esse é um código HTML que cria uma página simples para verificar a idade com base no ano de nascimento e sexo. Ele utiliza JavaScript para realizar a verificação e apresentar uma imagem correspondente à faixa etária e ao gênero.
+O "Verificador de Idade" é uma aplicação simples que permite aos usuários verificar sua idade com base no ano de nascimento fornecido e selecionar seu sexo. Este aplicativo é uma ferramenta simples para determinar a idade e proporciona uma experiência interativa ao exibir uma imagem correspondente ao sexo e à faixa etária do usuário. Aqui estão os principais recursos do aplicativo:
 
-Aqui estão as principais partes do código:
+- **Entrada de Dados:**
+  - O usuário pode inserir o ano de nascimento no campo de entrada fornecido.
+  - O usuário pode selecionar seu sexo marcando uma das opções fornecidas: masculino ou feminino.
 
-### HTML (`CODIGO.html`):
-1. **Meta Tags e Título:**
-   - Define o conjunto de caracteres, a compatibilidade com o Internet Explorer e a escala de visualização.
-   - O título da página é "IDADE".
+- **Verificação de Idade:**
+  - Ao clicar no botão "VERIFICAR", o aplicativo calcula a idade do usuário com base no ano de nascimento fornecido e no ano atual.
+  - Se os dados inseridos forem inválidos (como um ano de nascimento futuro ou campo vazio), uma mensagem de erro será exibida.
 
-2. **Vinculação de Estilos e Scripts:**
-   - Vincula um arquivo de script JavaScript (`CODIGO.js`) e um arquivo de estilo CSS (`CODIGO.css`).
-
-3. **Corpo do Documento (`<body>`):**
-   - Contém um cabeçalho (`<header>`), uma seção (`<section>`) com campos para inserção de dados (ano de nascimento, sexo) e um rodapé (`<footer>`).
-
-### CSS (`CODIGO.css`):
-1. **Estilos:**
-   - Define estilos para o corpo da página, cabeçalho, seção, div, imagem e rodapé.
-   - Usa cores, fontes e sombras para estilizar a página.
-
-### JS (`CODIGO.js`):
-1. **Função `verificar()`:**
-   - Obtém o ano atual.
-   - Obtém o ano de nascimento e verifica se é válido.
-   - Determina o gênero selecionado.
-   - Calcula a idade.
-   - Com base na idade e gênero, seleciona uma imagem correspondente.
-   - Exibe a idade, gênero e imagem no elemento com o ID 'res'.
-
-### CONSIDERAÇÕES ADICIONAIS:
-   - O script JavaScript usa a função `createElement` para criar uma imagem dinamicamente e atribui propriedades a ela.
-   - A página tem uma estrutura básica, com um cabeçalho informativo, campos para entrada de dados e uma área para exibição dos resultados.
-   - O design é estilizado usando o arquivo CSS fornecido.
-   - Imagens específicas estão vinculadas no script com base no gênero e na faixa etária.
+- **Exibição do Resultado:**
+  - Após a verificação bem-sucedida, o aplicativo exibe uma mensagem indicando o sexo e a idade do usuário.
+  - Uma imagem correspondente ao sexo e à faixa etária do usuário também é exibida ao lado da mensagem.
 
 ## COMO USAR?
+### BAIXANDO O PROJETO:
 * Clone o repositório para o seu sistema local:
 
 ```bash
@@ -57,7 +37,13 @@ cd VERIFICADOR-DE-IDADE
 ```bash
 unzip VERIFICADOR-DE-IDADE.zip
 ```
-* Abra o arquivo `CODIGO.html` em seu navegador de preferência.
+
+### EXECUTANDO O APLICATIVO:
+1. Abra o arquivo `CODIGO.html` em um navegador da web.
+2. Insira o ano de nascimento no campo fornecido.
+3. Selecione o sexo marcando a opção correspondente.
+4. Clique no botão "VERIFICAR" para calcular a idade e exibir o resultado.
+5. Observe a mensagem indicando o sexo e a idade do usuário, juntamente com uma imagem correspondente.
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em `HTML`, `CSS` e outras linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
@@ -67,5 +53,5 @@ unzip VERIFICADOR-DE-IDADE.zip
 
 ## CREDITOS:
 - [PROJETO FEITO PELO VILHALVA](https://github.com/VILHALVA)
-- [PROJETO FEITO PARA O CURSO DE HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
+- [PROJETO FEITO PARA O CURSO DE JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
 - [ESTÁ DISPONIVEL NO SITE](https://vilhalva.github.io/STYLER/STYLER.html)
