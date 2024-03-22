@@ -18,27 +18,7 @@ O "Verificador de Idade" é uma aplicação simples que permite aos usuários ve
   - Após a verificação bem-sucedida, o aplicativo exibe uma mensagem indicando o sexo e a idade do usuário.
   - Uma imagem correspondente ao sexo e à faixa etária do usuário também é exibida ao lado da mensagem.
 
-## COMO USAR?
-### BAIXANDO O PROJETO:
-* Clone o repositório para o seu sistema local:
-
-```bash
-git clone https://github.com/VILHALVA/VERIFICADOR-DE-IDADE.git
-```
-
-* Navegue até o diretório do projeto.
-
-```bash
-cd VERIFICADOR-DE-IDADE
-```
-
-* Descompacte o arquivo ZIP (se você baixou manualmente):
-
-```bash
-unzip VERIFICADOR-DE-IDADE.zip
-```
-
-### EXECUTANDO O APLICATIVO:
+## EXECUTANDO O APLICATIVO:
 1. Abra o arquivo `CODIGO.html` em um navegador da web.
 2. Insira o ano de nascimento no campo fornecido.
 3. Selecione o sexo marcando a opção correspondente.
@@ -47,9 +27,9 @@ unzip VERIFICADOR-DE-IDADE.zip
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em `HTML`, `CSS` e outras linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
-* [Curso de HTML e CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
-* [Curso de JavaScript](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-* [Confira mais cursos](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+* [CURSO DE HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
+* [CURSO DE JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+* [CONFIRA MAIS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
 ## CREDITOS:
 - [PROJETO FEITO PELO VILHALVA](https://github.com/VILHALVA)
